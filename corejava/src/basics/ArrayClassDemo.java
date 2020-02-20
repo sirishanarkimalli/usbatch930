@@ -10,17 +10,14 @@ public class ArrayClassDemo {
 		for (int i=0;i<a.length;i++)
 			System.out.print(a[i] + " ");
 
+		//Sorting using sort() method of Arrays class
 		Arrays.sort(a);
 		
 		System.out.println("\nArray elemenst after sort");
 		for (int value : a)
 			System.out.print(value + " ");
 
-		
-		
-		
-	
-		
+		//Searching using binarySearch() method of Arrays class
 		int index = Arrays.binarySearch(a, 88);
 		
 		if (index < 0)
